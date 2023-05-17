@@ -3,7 +3,7 @@ import { Selector, RequestLogger } from 'testcafe';
 // This sample tests to confirm tests are not working as expected on running with '--native-automation'
 
 fixture `Test somethings I found`
-  .page `http://localhost:8081/`;
+  .page `http://localhost:8080/`;
 
 test('checkbox.checked', async (t) => {
   const foo2Checkbox = Selector('input[type="checkbox"]#foo-checkbox-2', { timeout: 0 });
@@ -29,7 +29,7 @@ test('checkbox.checked', async (t) => {
   }
 });
 
-test.only('ctrl+a', async (t) => {
+test('ctrl+a', async (t) => {
   const textField = Selector('.ctrl-a input');
   await t.expect(textField.value).eql('foo is bar');
   await t.click(textField);

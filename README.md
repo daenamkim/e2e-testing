@@ -1,4 +1,4 @@
-# Test --native-automation
+# E2E Testing
 
 ## Project setup
 ```
@@ -10,18 +10,10 @@ yarn install
 yarn serve
 ```
 
-Make sure page URL(`http://localhost:8081/`;) in a test file is correct with running now.
+Make sure page URL(`http://localhost:8080/`;) in a test file is correct with running now.
 
-### Run test in normal mode
-
-Open another terminal and run:
+### TestCafe
 
 ```
-yarn test
+yarn test:testcafe
 ```
-
-### Run test in --native-automation mode
-```
-yarn test:na
-```
-# e2e-testing

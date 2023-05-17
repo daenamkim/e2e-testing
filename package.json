@@ -6,8 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "npx testcafe chrome",
-    "test:na": "npx testcafe chrome --native-automation"
+    "test:testcafe": "npx testcafe chrome",
+    "test:testcafe:headless": "npx testcafe chrome:headless",
+    "test:testcafe:na": "npx testcafe chrome --native-automation",
+    "test:testcafe:na:headless": "npx testcafe chrome:headless --native-automation"
   },
   "dependencies": {
     "assert": "^2.0.0",
