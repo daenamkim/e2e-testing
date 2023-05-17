@@ -10,7 +10,7 @@ yarn install
 yarn serve
 ```
 
-Make sure page URL(`http://localhost:8080/`;) in a test file is correct with running now.
+Make sure page URL(`http://localhost:8080/`) in a test file is correct with running now.
 
 ### TestCafe
 

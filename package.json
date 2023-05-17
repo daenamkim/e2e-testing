@@ -30,6 +30,7 @@
     "vuetify": "^2.6.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.33.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
