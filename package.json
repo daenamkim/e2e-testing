@@ -9,7 +9,8 @@
     "test:testcafe": "npx testcafe chrome",
     "test:testcafe:headless": "npx testcafe chrome:headless",
     "test:testcafe:na": "npx testcafe chrome --native-automation",
-    "test:testcafe:na:headless": "npx testcafe chrome:headless --native-automation"
+    "test:testcafe:na:headless": "npx testcafe chrome:headless --native-automation",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "assert": "^2.0.0",
@@ -37,6 +38,7 @@
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "@vue/eslint-config-typescript": "^9.1.0",
+    "cypress": "^12.12.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "mock3": "^0.1.2",
